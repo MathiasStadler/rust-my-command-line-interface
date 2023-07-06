@@ -5,7 +5,7 @@
 for DIR in [a01]*; do
     DIRNAME=$(basename "$DIR")
     echo "==> $DIRNAME <=="
-    (cd $DIR  && cargo test -q > /dev/null && cargo clippy)
+    (cd $DIR  && cargo fmt -v && cargo test -q > /dev/null && cargo clippy)
 done
 
 echo "Done."
