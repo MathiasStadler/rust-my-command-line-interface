@@ -1,4 +1,4 @@
-# Create new test case in this this folder
+# Create new test case in this folder
 
 1. create new folder inside parent directory with a new number
 e.g. 02_ , 03_ ...  
