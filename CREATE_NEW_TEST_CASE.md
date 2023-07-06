@@ -10,6 +10,10 @@ e.g. 02_ , 03_ ...
 4. copy `.gitignore` from parent folder
 `cp ../.gitignore . `
 5. git commit via menu on the left side
+6. change to project top folder 
+`cd ..`
+7. Rerun all test again in the terminal   
+'sh +x ./test.sh'
 
 
 
@@ -19,4 +23,6 @@ mkdir 02_true_test
 cd 02_true_test/
 cargo init . --name true_test
 cp ../.gitignore .
+cd ..
+sh +x ./test.sh
 ```
