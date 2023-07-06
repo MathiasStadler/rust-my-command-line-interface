@@ -2,7 +2,7 @@
 
 1. create new folder inside parent directory with a new number
 e.g. 02_ , 03_ ...  
-`mkdir 02_true_test`
+> `mkdir 02_true_test`
 2. change to the new folder 
 `cd 02_true_test'
 3. run command with additional name without previous number  
